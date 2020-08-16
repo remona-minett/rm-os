@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Collections.Generic;
 using rm_os.Configuration;
 
 namespace rm_os.Kernel
@@ -14,6 +13,7 @@ namespace rm_os.Kernel
             Console.Title = "RM-OS (ALPHA BUILD)"; // update version number here
             string progdir = AppDomain.CurrentDomain.BaseDirectory;
             string appdata = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            Console.WriteLine(appdata);
             string rmosfo = Path.Combine(appdata, "rm-os");
             Directory.CreateDirectory(rmosfo); Directory.SetCurrentDirectory(rmosfo);
             if (File.Exists("confloc.txt")) { confloc = File.ReadAllText("confloc.txt"); } // if loc file exists, load it
