@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Net;
 
 namespace rm_os_wfa_test
 {
@@ -85,6 +86,28 @@ namespace rm_os_wfa_test
         }
 
         private void button18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            using (WebClient client = new WebClient())
+            {
+                try
+                {
+                    label28.Visible = true;
+                    label28.Text = client.DownloadString("https://raw.githubusercontent.com/remona-minett/rm-os/master/ver.txt");
+                }
+                catch (Exception)
+                {
+                    label28.Visible = true;
+                    label28.Text = "Unable to connect...";
+                }
+            }
+        }
+
+        private void label28_Click(object sender, EventArgs e)
         {
 
         }
