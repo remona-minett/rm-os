@@ -7,7 +7,8 @@ namespace rm_os
     {
         static void Main()
         {
-            KInfo.kernelInfo();
+            KCheck.KernelInfo();
+            KInit.KCheck();
             Console.ReadKey(); // eof hang to read output
         }
     }

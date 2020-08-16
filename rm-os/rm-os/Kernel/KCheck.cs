@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace rm_os.Kernel
 {
-    class KInfo
+    class KCheck
     {
         public static void PrintTargetRuntime()
         {
@@ -34,7 +34,7 @@ namespace rm_os.Kernel
                 Console.WriteLine("x86 process.");
             }
         }
-        public static void kernelInfo()
+        public static void KernelInfo()
         {
             string kver = "1.0.0"; // update version number here
             Console.Clear();

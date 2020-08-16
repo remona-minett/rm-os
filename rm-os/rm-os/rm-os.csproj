@@ -44,7 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Kernel\KInfo.cs" />
+    <Compile Include="Configuration\LoadConfig.cs" />
+    <Compile Include="Kernel\KCheck.cs" />
+    <Compile Include="Kernel\KInit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -52,7 +54,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Configuration\" />
     <Folder Include="Core\" />
     <Folder Include="Menus\" />
   </ItemGroup>
