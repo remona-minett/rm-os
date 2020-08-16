@@ -97,7 +97,7 @@ namespace rm_os_wfa_test
                 try
                 {
                     label28.Visible = true;
-                    label28.Text = client.DownloadString("https://raw.githubusercontent.com/remona-minett/rm-os/master/ver.txt");
+                    label28.Text = client.DownloadString("https://raw.githubusercontent.com/remona-minett/rm-os/master/rm-os%20gfx/rm-os%20gfx/ver.txt");
                 }
                 catch (Exception)
                 {
@@ -110,6 +110,11 @@ namespace rm_os_wfa_test
         private void label28_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/remona-minett/rm-os/releases");
         }
     }
 }
