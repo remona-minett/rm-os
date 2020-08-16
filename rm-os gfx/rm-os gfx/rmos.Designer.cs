@@ -86,6 +86,7 @@
             this.label27 = new System.Windows.Forms.Label();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
+            this.label35 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -303,6 +304,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label35);
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.label8);
             this.tabPage2.Controls.Add(this.label12);
@@ -337,6 +339,7 @@
             this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 37;
             this.label2.Text = "(none)";
+            this.label2.Visible = false;
             // 
             // label8
             // 
@@ -346,6 +349,7 @@
             this.label8.Size = new System.Drawing.Size(37, 13);
             this.label8.TabIndex = 36;
             this.label8.Text = "(none)";
+            this.label8.Visible = false;
             // 
             // label12
             // 
@@ -355,6 +359,7 @@
             this.label12.Size = new System.Drawing.Size(37, 13);
             this.label12.TabIndex = 35;
             this.label12.Text = "(none)";
+            this.label12.Visible = false;
             // 
             // label13
             // 
@@ -364,6 +369,7 @@
             this.label13.Size = new System.Drawing.Size(37, 13);
             this.label13.TabIndex = 34;
             this.label13.Text = "(none)";
+            this.label13.Visible = false;
             // 
             // label14
             // 
@@ -373,6 +379,7 @@
             this.label14.Size = new System.Drawing.Size(37, 13);
             this.label14.TabIndex = 33;
             this.label14.Text = "(none)";
+            this.label14.Visible = false;
             // 
             // label15
             // 
@@ -382,6 +389,7 @@
             this.label15.Size = new System.Drawing.Size(37, 13);
             this.label15.TabIndex = 32;
             this.label15.Text = "(none)";
+            this.label15.Visible = false;
             // 
             // label16
             // 
@@ -391,6 +399,7 @@
             this.label16.Size = new System.Drawing.Size(37, 13);
             this.label16.TabIndex = 31;
             this.label16.Text = "(none)";
+            this.label16.Visible = false;
             // 
             // label17
             // 
@@ -400,6 +409,7 @@
             this.label17.Size = new System.Drawing.Size(37, 13);
             this.label17.TabIndex = 30;
             this.label17.Text = "(none)";
+            this.label17.Visible = false;
             // 
             // label18
             // 
@@ -409,6 +419,7 @@
             this.label18.Size = new System.Drawing.Size(37, 13);
             this.label18.TabIndex = 29;
             this.label18.Text = "(none)";
+            this.label18.Visible = false;
             // 
             // button10
             // 
@@ -539,6 +550,7 @@
             this.label29.Size = new System.Drawing.Size(37, 13);
             this.label29.TabIndex = 61;
             this.label29.Text = "(none)";
+            this.label29.Visible = false;
             // 
             // label30
             // 
@@ -548,6 +560,7 @@
             this.label30.Size = new System.Drawing.Size(37, 13);
             this.label30.TabIndex = 60;
             this.label30.Text = "(none)";
+            this.label30.Visible = false;
             // 
             // label31
             // 
@@ -557,6 +570,7 @@
             this.label31.Size = new System.Drawing.Size(37, 13);
             this.label31.TabIndex = 59;
             this.label31.Text = "(none)";
+            this.label31.Visible = false;
             // 
             // label32
             // 
@@ -566,6 +580,7 @@
             this.label32.Size = new System.Drawing.Size(37, 13);
             this.label32.TabIndex = 58;
             this.label32.Text = "(none)";
+            this.label32.Visible = false;
             // 
             // label33
             // 
@@ -584,6 +599,7 @@
             this.label34.Size = new System.Drawing.Size(37, 13);
             this.label34.TabIndex = 56;
             this.label34.Text = "(none)";
+            this.label34.Visible = false;
             // 
             // label19
             // 
@@ -620,6 +636,7 @@
             this.label22.Size = new System.Drawing.Size(37, 13);
             this.label22.TabIndex = 52;
             this.label22.Text = "(none)";
+            this.label22.Visible = false;
             // 
             // label23
             // 
@@ -629,6 +646,7 @@
             this.label23.Size = new System.Drawing.Size(37, 13);
             this.label23.TabIndex = 51;
             this.label23.Text = "(none)";
+            this.label23.Visible = false;
             // 
             // label24
             // 
@@ -638,6 +656,7 @@
             this.label24.Size = new System.Drawing.Size(37, 13);
             this.label24.TabIndex = 50;
             this.label24.Text = "(none)";
+            this.label24.Visible = false;
             // 
             // label25
             // 
@@ -647,6 +666,7 @@
             this.label25.Size = new System.Drawing.Size(37, 13);
             this.label25.TabIndex = 49;
             this.label25.Text = "(none)";
+            this.label25.Visible = false;
             // 
             // label26
             // 
@@ -665,6 +685,7 @@
             this.label27.Size = new System.Drawing.Size(37, 13);
             this.label27.TabIndex = 47;
             this.label27.Text = "(none)";
+            this.label27.Visible = false;
             // 
             // button19
             // 
@@ -674,6 +695,7 @@
             this.button19.TabIndex = 46;
             this.button19.Text = "Browser";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
@@ -684,6 +706,17 @@
             this.button20.Text = "Check";
             this.button20.UseVisualStyleBackColor = true;
             this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
+            // label35
+            // 
+            this.label35.BackColor = System.Drawing.Color.Transparent;
+            this.label35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label35.Location = new System.Drawing.Point(3, 3);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(209, 262);
+            this.label35.TabIndex = 38;
+            this.label35.Text = "Not available in this version.";
+            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // rmos
             // 
@@ -772,6 +805,7 @@
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Label label35;
     }
 }
 
