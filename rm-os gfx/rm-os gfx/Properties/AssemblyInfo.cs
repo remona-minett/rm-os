@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("rm-os")]
+[assembly: AssemblyTitle("rm-os wfa test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("rm-os")]
+[assembly: AssemblyProduct("rm-os wfa test")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("90316561-b8b7-4fc9-8531-40af6e5d28e5")]
+[assembly: Guid("50d3957a-5013-460c-9eeb-be0a0a459ac7")]
 
 // Version information for an assembly consists of the following four values:
 //
