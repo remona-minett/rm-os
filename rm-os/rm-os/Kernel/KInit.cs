@@ -13,7 +13,6 @@ namespace rm_os.Kernel
             Console.Title = "RM-OS (ALPHA BUILD)"; // update version number here
             string progdir = AppDomain.CurrentDomain.BaseDirectory;
             string appdata = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-            Console.WriteLine(appdata);
             string rmosfo = Path.Combine(appdata, "rm-os");
             Directory.CreateDirectory(rmosfo); Directory.SetCurrentDirectory(rmosfo);
             if (File.Exists("confloc.txt")) { confloc = File.ReadAllText("confloc.txt"); } // if loc file exists, load it
@@ -22,7 +21,7 @@ namespace rm_os.Kernel
                 confloc = Path.Combine(rmosfo, "config.txt");
                 configuration = LoadConfig.LoadCFile(confloc); // loads configuration into memory
             }
-            else { File.Create("config.txt"); } // if config file doesn't exist, create it
+            else { File.Create("config.txt"); confloc = Path.Combine(rmosfo, "config.txt"); } // if config file doesn't exist, create a blank one. usually only done on first run
         }
     }
 }
