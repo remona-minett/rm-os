@@ -10,13 +10,12 @@ namespace rm_os.Kernel
         {
             string confloc;
             string[] configuration;
-            Console.Title = "RM-OS (ALPHA BUILD)"; // update version number here
+            Console.Title = "RM-OS Alpha"; // update version number here
             string progdir = AppDomain.CurrentDomain.BaseDirectory;
             string appdata = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             string rmosfo = Path.Combine(appdata, "rm-os");
-            Directory.CreateDirectory(rmosfo); Directory.SetCurrentDirectory(rmosfo);
-            if (File.Exists("confloc.txt")) { confloc = File.ReadAllText("confloc.txt"); } // if loc file exists, load it
-            else if (File.Exists("config.txt")) // if no loc file, search appdata (default)
+            Directory.CreateDirectory(rmosfo); Directory.SetCurrentDirectory(rmosfo); // sets current directory to the program's appdata folder
+            if (File.Exists("config.txt")) // begin init config
             {
                 confloc = Path.Combine(rmosfo, "config.txt");
                 configuration = LoadConfig.LoadCFile(confloc); // loads configuration into memory

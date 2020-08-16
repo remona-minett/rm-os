@@ -7,7 +7,14 @@ namespace rm_os.Configuration
     {
         public static string[] LoadCFile(string confloc)
         {
-            string[] confdata = File.ReadAllLines(confloc); // simply reads each line into the array as a config.
+            string[] confdata = null;
+            try { confdata = File.ReadAllLines(confloc); } // reads each line into the array
+            catch (Exception)
+            {
+                Console.WriteLine("Failed to read configuration data. Check read permissions.");
+                Console.WriteLine("Press any key to continue.");
+                Console.ReadKey();
+            }
             return confdata;
         }
     }

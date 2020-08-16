@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration\LoadConfig.cs" />
+    <Compile Include="Configuration\SaveConfig.cs" />
     <Compile Include="Kernel\KCheck.cs" />
     <Compile Include="Kernel\KInit.cs" />
+    <Compile Include="Menus\ConfigMenu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,7 +60,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Core\" />
-    <Folder Include="Menus\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
