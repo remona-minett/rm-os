@@ -1441,7 +1441,7 @@
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(126, 13);
             this.label33.TabIndex = 57;
-            this.label33.Text = "0.2.0-gfx-beta";
+            this.label33.Text = "0.2.1-gfx-beta";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label19

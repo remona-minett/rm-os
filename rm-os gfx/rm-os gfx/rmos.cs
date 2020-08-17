@@ -618,12 +618,8 @@ namespace rm_os_gfx
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            try { Process.Start("cmd.exe"); }
-            catch (Exception)
-            {
-                var popup = new errNotFound();
-                popup.ShowDialog();
-            }
+            cmdPopup popup = new cmdPopup();
+            popup.ShowDialog();
         }
 
         private void button4_Click_1(object sender, EventArgs e)
