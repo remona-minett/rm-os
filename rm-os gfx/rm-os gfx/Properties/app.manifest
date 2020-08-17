@@ -64,7 +64,6 @@
           publicKeyToken="6595b64144ccf1df"
           language="*"
           supportUrl="https://github.com/remona-minett/rm-os/issues"
-          
         />
     </dependentAssembly>
   </dependency>
