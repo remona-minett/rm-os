@@ -158,6 +158,8 @@
             this.label26 = new System.Windows.Forms.Label();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -562,7 +564,7 @@
             this.button25.TabIndex = 75;
             this.button25.Text = "Assign";
             this.button25.UseVisualStyleBackColor = true;
-            this.button25.Visible = false;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
             // button26
             // 
@@ -572,7 +574,7 @@
             this.button26.TabIndex = 74;
             this.button26.Text = "Assign";
             this.button26.UseVisualStyleBackColor = true;
-            this.button26.Visible = false;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
             // button27
             // 
@@ -582,7 +584,7 @@
             this.button27.TabIndex = 73;
             this.button27.Text = "Assign";
             this.button27.UseVisualStyleBackColor = true;
-            this.button27.Visible = false;
+            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // button28
             // 
@@ -592,7 +594,7 @@
             this.button28.TabIndex = 72;
             this.button28.Text = "Assign";
             this.button28.UseVisualStyleBackColor = true;
-            this.button28.Visible = false;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
             // label43
             // 
@@ -683,7 +685,7 @@
             this.button29.TabIndex = 62;
             this.button29.Text = "Assign";
             this.button29.UseVisualStyleBackColor = true;
-            this.button29.Visible = false;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // button30
             // 
@@ -693,7 +695,7 @@
             this.button30.TabIndex = 61;
             this.button30.Text = "Assign";
             this.button30.UseVisualStyleBackColor = true;
-            this.button30.Visible = false;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
             // button31
             // 
@@ -703,7 +705,7 @@
             this.button31.TabIndex = 60;
             this.button31.Text = "Assign";
             this.button31.UseVisualStyleBackColor = true;
-            this.button31.Visible = false;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // button32
             // 
@@ -713,7 +715,7 @@
             this.button32.TabIndex = 59;
             this.button32.Text = "Assign";
             this.button32.UseVisualStyleBackColor = true;
-            this.button32.Visible = false;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
             // button33
             // 
@@ -723,6 +725,7 @@
             this.button33.TabIndex = 58;
             this.button33.Text = "Assign";
             this.button33.UseVisualStyleBackColor = true;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
             // button34
             // 
@@ -732,6 +735,7 @@
             this.button34.TabIndex = 57;
             this.button34.Text = "Assign";
             this.button34.UseVisualStyleBackColor = true;
+            this.button34.Click += new System.EventHandler(this.button34_Click);
             // 
             // button35
             // 
@@ -765,6 +769,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label27);
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.label8);
             this.tabPage2.Controls.Add(this.label12);
@@ -1043,6 +1048,7 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.label34);
             this.tabPage6.Controls.Add(this.label56);
             this.tabPage6.Controls.Add(this.label57);
             this.tabPage6.Controls.Add(this.label58);
@@ -1512,6 +1518,26 @@
             this.button20.UseVisualStyleBackColor = true;
             this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
+            // label34
+            // 
+            this.label34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label34.Location = new System.Drawing.Point(3, 3);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(200, 376);
+            this.label34.TabIndex = 107;
+            this.label34.Text = "Unavailable in Beta";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label27
+            // 
+            this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label27.Location = new System.Drawing.Point(3, 3);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(200, 376);
+            this.label27.TabIndex = 107;
+            this.label27.Text = "Unavailable in Beta";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // rmos
             // 
             this.AccessibleDescription = "basic program launcher";
@@ -1527,7 +1553,7 @@
             this.MaximizeBox = false;
             this.Name = "rmos";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Text = "rm-os (beta)";
+            this.Text = "rm-os (dev)";
             this.Load += new System.EventHandler(this.rmos_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -1677,6 +1703,8 @@
         private System.Windows.Forms.Button button53;
         private System.Windows.Forms.Button button54;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label34;
     }
 }
 

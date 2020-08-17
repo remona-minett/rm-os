@@ -201,13 +201,93 @@ namespace rm_os_gfx
                 label46.Text = label46Text;
                 button36.Text = "Start";
             }
-            configFile = PathTesting.PathChk("1", "2");
-            if (configFile != null) // label46 corresponds
+            configFile = PathTesting.PathChk("1", "3");
+            if (configFile != null) // label47 corresponds
             {
                 var label47Text = configFile[2];
                 b35PS = configFile[3];
                 label47.Text = label47Text;
                 button35.Text = "Start";
+            }
+            configFile = PathTesting.PathChk("1", "4");
+            if (configFile != null) // label48 corresponds
+            {
+                var label48Text = configFile[2];
+                b34PS = configFile[3];
+                label48.Text = label48Text;
+                button34.Text = "Start";
+            }
+            configFile = PathTesting.PathChk("1", "5");
+            if (configFile != null) // label49 corresponds
+            {
+                var label49Text = configFile[2];
+                b33PS = configFile[3];
+                label49.Text = label49Text;
+                button33.Text = "Start";
+            }
+            configFile = PathTesting.PathChk("1", "6");
+            if (configFile != null) // label50 corresponds
+            {
+                var label50Text = configFile[2];
+                b32PS = configFile[3];
+                label50.Text = label50Text;
+                button32.Text = "Start";
+            }
+            configFile = PathTesting.PathChk("1", "7");
+            if (configFile != null) // label43 corresponds
+            {
+                var label43Text = configFile[2];
+                b31PS = configFile[3];
+                label43.Text = label43Text;
+                button31.Text = "Start";
+            }
+            configFile = PathTesting.PathChk("1", "8");
+            if (configFile != null) // label44 corresponds
+            {
+                var label44Text = configFile[2];
+                b30PS = configFile[3];
+                label44.Text = label44Text;
+                button30.Text = "Start";
+            }
+            configFile = PathTesting.PathChk("1", "9");
+            if (configFile != null) // label45 corresponds
+            {
+                var label45Text = configFile[2];
+                b29PS = configFile[3];
+                label45.Text = label45Text;
+                button29.Text = "Start";
+            }
+            configFile = PathTesting.PathChk("1", "10");
+            if (configFile != null) // label42 corresponds
+            {
+                var label42Text = configFile[2];
+                b28PS = configFile[3];
+                label42.Text = label42Text;
+                button28.Text = "Start";
+            }
+            configFile = PathTesting.PathChk("1", "11");
+            if (configFile != null) // label39 corresponds
+            {
+                var label39Text = configFile[2];
+                b27PS = configFile[3];
+                label39.Text = label39Text;
+                button27.Text = "Start";
+            }
+            configFile = PathTesting.PathChk("1", "12");
+            if (configFile != null) // label40 corresponds
+            {
+                var label40Text = configFile[2];
+                b26PS = configFile[3];
+                label40.Text = label40Text;
+                button26.Text = "Start";
+            }
+            configFile = PathTesting.PathChk("1", "13");
+            if (configFile != null) // label41 corresponds
+            {
+                var label41Text = configFile[2];
+                b25PS = configFile[3];
+                label41.Text = label41Text;
+                button25.Text = "Start";
             }
         }
 
@@ -235,6 +315,136 @@ namespace rm_os_gfx
                 }
             }
             else { PathTesting.PathAssign("1", "3"); }
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            if (b34PS != null)
+            {
+                try { Process.Start(b34PS); }
+                catch (Exception)
+                {
+                    // ignored
+                }
+            }
+            else { PathTesting.PathAssign("1", "4"); }
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            if (b33PS != null)
+            {
+                try { Process.Start(b33PS); }
+                catch (Exception)
+                {
+                    // ignored
+                }
+            }
+            else { PathTesting.PathAssign("1", "5"); }
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            if (b32PS != null)
+            {
+                try { Process.Start(b32PS); }
+                catch (Exception)
+                {
+                    // ignored
+                }
+            }
+            else { PathTesting.PathAssign("1", "6"); }
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            if (b31PS != null)
+            {
+                try { Process.Start(b31PS); }
+                catch (Exception)
+                {
+                    // ignored
+                }
+            }
+            else { PathTesting.PathAssign("1", "6"); }
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            if (b30PS != null)
+            {
+                try { Process.Start(b30PS); }
+                catch (Exception)
+                {
+                    // ignored
+                }
+            }
+            else { PathTesting.PathAssign("1", "7"); }
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            if (b29PS != null)
+            {
+                try { Process.Start(b29PS); }
+                catch (Exception)
+                {
+                    // ignored
+                }
+            }
+            else { PathTesting.PathAssign("1", "8"); }
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            if (b28PS != null)
+            {
+                try { Process.Start(b28PS); }
+                catch (Exception)
+                {
+                    // ignored
+                }
+            }
+            else { PathTesting.PathAssign("1", "9"); }
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            if (b27PS != null)
+            {
+                try { Process.Start(b27PS); }
+                catch (Exception)
+                {
+                    // ignored
+                }
+            }
+            else { PathTesting.PathAssign("1", "10"); }
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            if (b26PS != null)
+            {
+                try { Process.Start(b26PS); }
+                catch (Exception)
+                {
+                    // ignored
+                }
+            }
+            else { PathTesting.PathAssign("1", "11"); }
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            if (b25PS != null)
+            {
+                try { Process.Start(b25PS); }
+                catch (Exception)
+                {
+                    // ignored
+                }
+            }
+            else { PathTesting.PathAssign("1", "12"); }
         }
     }
 }
