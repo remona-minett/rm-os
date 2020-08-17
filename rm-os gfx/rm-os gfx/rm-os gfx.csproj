@@ -74,7 +74,11 @@
   <PropertyGroup>
     <TargetZone>Internet</TargetZone>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>rmos.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -94,6 +98,13 @@
     <Compile Include="cmdPopup.Designer.cs">
       <DependentUpon>cmdPopup.cs</DependentUpon>
     </Compile>
+    <Compile Include="errNotFound.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="errNotFound.Designer.cs">
+      <DependentUpon>errNotFound.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pathcheck.cs" />
     <Compile Include="rmos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +115,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="cmdPopup.resx">
       <DependentUpon>cmdPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="errNotFound.resx">
+      <DependentUpon>errNotFound.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rmos.resx">
       <DependentUpon>rmos.cs</DependentUpon>
@@ -134,6 +148,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="rmos.ico" />
     <Content Include="ver.txt" />
   </ItemGroup>
   <ItemGroup>

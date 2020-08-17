@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace rm_os_wfa_test
+namespace rm_os_gfx
 {
     static class Program
     {
