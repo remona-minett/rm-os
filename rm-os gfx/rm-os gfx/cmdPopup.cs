@@ -13,7 +13,7 @@ namespace rm_os_gfx
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ProcessStartInfo userlandCmd = new ProcessStartInfo("cmd.exe")
+            var userlandCmd = new ProcessStartInfo("cmd.exe")
             {
                 WorkingDirectory = "C:"
             };
@@ -22,13 +22,13 @@ namespace rm_os_gfx
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ProcessStartInfo elevatedCmd = new ProcessStartInfo("cmd.exe")
+            var elevatedCmd = new ProcessStartInfo("cmd.exe")
             {
                 UseShellExecute = true,
                 Verb = "runas"
             };
             try { Process.Start(elevatedCmd); }
-            catch (Exception) { }
+            catch (Exception) { /* ignored */ }
         }
     }
 }

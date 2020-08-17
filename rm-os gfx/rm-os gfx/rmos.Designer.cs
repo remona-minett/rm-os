@@ -141,6 +141,7 @@
             this.button53 = new System.Windows.Forms.Button();
             this.button54 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
@@ -157,7 +158,6 @@
             this.label26 = new System.Windows.Forms.Label();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -190,7 +190,6 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Program Launcher";
             this.tabPage1.UseVisualStyleBackColor = true;
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // tabControl2
             // 
@@ -204,7 +203,6 @@
             this.tabControl2.SelectedIndex = 0;
             this.tabControl2.Size = new System.Drawing.Size(214, 408);
             this.tabControl2.TabIndex = 0;
-            this.tabControl2.SelectedIndexChanged += new System.EventHandler(this.tabControl2_SelectedIndexChanged);
             // 
             // tabPage4
             // 
@@ -241,7 +239,6 @@
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "Default";
             this.tabPage4.UseVisualStyleBackColor = true;
-            this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
             // label35
             // 
@@ -251,7 +248,6 @@
             this.label35.Size = new System.Drawing.Size(39, 13);
             this.label35.TabIndex = 53;
             this.label35.Text = "(None)";
-            this.label35.Click += new System.EventHandler(this.label35_Click);
             // 
             // label36
             // 
@@ -261,7 +257,6 @@
             this.label36.Size = new System.Drawing.Size(39, 13);
             this.label36.TabIndex = 52;
             this.label36.Text = "(None)";
-            this.label36.Click += new System.EventHandler(this.label36_Click);
             // 
             // label37
             // 
@@ -271,7 +266,6 @@
             this.label37.Size = new System.Drawing.Size(39, 13);
             this.label37.TabIndex = 51;
             this.label37.Text = "(None)";
-            this.label37.Click += new System.EventHandler(this.label37_Click);
             // 
             // label38
             // 
@@ -281,7 +275,6 @@
             this.label38.Size = new System.Drawing.Size(39, 13);
             this.label38.TabIndex = 50;
             this.label38.Text = "(None)";
-            this.label38.Click += new System.EventHandler(this.label38_Click);
             // 
             // button21
             // 
@@ -331,7 +324,6 @@
             this.label11.Size = new System.Drawing.Size(39, 13);
             this.label11.TabIndex = 45;
             this.label11.Text = "(None)";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label10
             // 
@@ -341,7 +333,6 @@
             this.label10.Size = new System.Drawing.Size(39, 13);
             this.label10.TabIndex = 44;
             this.label10.Text = "(None)";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label9
             // 
@@ -351,7 +342,6 @@
             this.label9.Size = new System.Drawing.Size(39, 13);
             this.label9.TabIndex = 43;
             this.label9.Text = "(None)";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label7
             // 
@@ -361,7 +351,6 @@
             this.label7.Size = new System.Drawing.Size(54, 13);
             this.label7.TabIndex = 42;
             this.label7.Text = "Calculator";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label6
             // 
@@ -371,7 +360,6 @@
             this.label6.Size = new System.Drawing.Size(90, 13);
             this.label6.TabIndex = 41;
             this.label6.Text = "Command Prompt";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
@@ -381,7 +369,6 @@
             this.label5.Size = new System.Drawing.Size(121, 13);
             this.label5.TabIndex = 40;
             this.label5.Text = "Default Internet Browser";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
@@ -391,7 +378,6 @@
             this.label4.Size = new System.Drawing.Size(92, 13);
             this.label4.TabIndex = 39;
             this.label4.Text = "Windows Explorer";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
@@ -401,7 +387,6 @@
             this.label3.Size = new System.Drawing.Size(60, 13);
             this.label3.TabIndex = 38;
             this.label3.Text = "Notepad++";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label1
             // 
@@ -411,7 +396,6 @@
             this.label1.Size = new System.Drawing.Size(48, 13);
             this.label1.TabIndex = 37;
             this.label1.Text = "Notepad";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // button9
             // 
@@ -461,7 +445,6 @@
             this.button5.TabIndex = 32;
             this.button5.Text = "Start";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
             // button4
             // 
@@ -471,7 +454,6 @@
             this.button4.TabIndex = 31;
             this.button4.Text = "Start";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // button3
             // 
@@ -481,7 +463,6 @@
             this.button3.TabIndex = 30;
             this.button3.Text = "Start";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // button2
             // 
@@ -491,7 +472,6 @@
             this.button2.TabIndex = 29;
             this.button2.Text = "Start";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button1
             // 
@@ -501,7 +481,6 @@
             this.button1.TabIndex = 28;
             this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // tabPage5
             // 
@@ -538,7 +517,6 @@
             this.tabPage5.TabIndex = 1;
             this.tabPage5.Text = "User 1";
             this.tabPage5.UseVisualStyleBackColor = true;
-            this.tabPage5.Click += new System.EventHandler(this.tabPage5_Click);
             // 
             // label39
             // 
@@ -548,7 +526,6 @@
             this.label39.Size = new System.Drawing.Size(39, 13);
             this.label39.TabIndex = 79;
             this.label39.Text = "(None)";
-            this.label39.Click += new System.EventHandler(this.label39_Click);
             // 
             // label40
             // 
@@ -558,7 +535,6 @@
             this.label40.Size = new System.Drawing.Size(39, 13);
             this.label40.TabIndex = 78;
             this.label40.Text = "(None)";
-            this.label40.Click += new System.EventHandler(this.label40_Click);
             // 
             // label41
             // 
@@ -568,7 +544,6 @@
             this.label41.Size = new System.Drawing.Size(39, 13);
             this.label41.TabIndex = 77;
             this.label41.Text = "(None)";
-            this.label41.Click += new System.EventHandler(this.label41_Click);
             // 
             // label42
             // 
@@ -578,7 +553,6 @@
             this.label42.Size = new System.Drawing.Size(39, 13);
             this.label42.TabIndex = 76;
             this.label42.Text = "(None)";
-            this.label42.Click += new System.EventHandler(this.label42_Click);
             // 
             // button25
             // 
@@ -589,7 +563,6 @@
             this.button25.Text = "Assign";
             this.button25.UseVisualStyleBackColor = true;
             this.button25.Visible = false;
-            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
             // button26
             // 
@@ -600,7 +573,6 @@
             this.button26.Text = "Assign";
             this.button26.UseVisualStyleBackColor = true;
             this.button26.Visible = false;
-            this.button26.Click += new System.EventHandler(this.button26_Click);
             // 
             // button27
             // 
@@ -611,7 +583,6 @@
             this.button27.Text = "Assign";
             this.button27.UseVisualStyleBackColor = true;
             this.button27.Visible = false;
-            this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // button28
             // 
@@ -622,7 +593,6 @@
             this.button28.Text = "Assign";
             this.button28.UseVisualStyleBackColor = true;
             this.button28.Visible = false;
-            this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
             // label43
             // 
@@ -632,7 +602,6 @@
             this.label43.Size = new System.Drawing.Size(39, 13);
             this.label43.TabIndex = 71;
             this.label43.Text = "(None)";
-            this.label43.Click += new System.EventHandler(this.label43_Click);
             // 
             // label44
             // 
@@ -642,7 +611,6 @@
             this.label44.Size = new System.Drawing.Size(39, 13);
             this.label44.TabIndex = 70;
             this.label44.Text = "(None)";
-            this.label44.Click += new System.EventHandler(this.label44_Click);
             // 
             // label45
             // 
@@ -652,7 +620,6 @@
             this.label45.Size = new System.Drawing.Size(39, 13);
             this.label45.TabIndex = 69;
             this.label45.Text = "(None)";
-            this.label45.Click += new System.EventHandler(this.label45_Click);
             // 
             // label46
             // 
@@ -662,7 +629,6 @@
             this.label46.Size = new System.Drawing.Size(39, 13);
             this.label46.TabIndex = 68;
             this.label46.Text = "(None)";
-            this.label46.Click += new System.EventHandler(this.label46_Click);
             // 
             // label47
             // 
@@ -672,7 +638,6 @@
             this.label47.Size = new System.Drawing.Size(39, 13);
             this.label47.TabIndex = 67;
             this.label47.Text = "(None)";
-            this.label47.Click += new System.EventHandler(this.label47_Click);
             // 
             // label48
             // 
@@ -682,7 +647,6 @@
             this.label48.Size = new System.Drawing.Size(39, 13);
             this.label48.TabIndex = 66;
             this.label48.Text = "(None)";
-            this.label48.Click += new System.EventHandler(this.label48_Click);
             // 
             // label49
             // 
@@ -692,7 +656,6 @@
             this.label49.Size = new System.Drawing.Size(39, 13);
             this.label49.TabIndex = 65;
             this.label49.Text = "(None)";
-            this.label49.Click += new System.EventHandler(this.label49_Click);
             // 
             // label50
             // 
@@ -702,7 +665,6 @@
             this.label50.Size = new System.Drawing.Size(39, 13);
             this.label50.TabIndex = 64;
             this.label50.Text = "(None)";
-            this.label50.Click += new System.EventHandler(this.label50_Click);
             // 
             // label51
             // 
@@ -712,7 +674,6 @@
             this.label51.Size = new System.Drawing.Size(39, 13);
             this.label51.TabIndex = 63;
             this.label51.Text = "(None)";
-            this.label51.Click += new System.EventHandler(this.label51_Click);
             // 
             // button29
             // 
@@ -723,7 +684,6 @@
             this.button29.Text = "Assign";
             this.button29.UseVisualStyleBackColor = true;
             this.button29.Visible = false;
-            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // button30
             // 
@@ -734,7 +694,6 @@
             this.button30.Text = "Assign";
             this.button30.UseVisualStyleBackColor = true;
             this.button30.Visible = false;
-            this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
             // button31
             // 
@@ -745,7 +704,6 @@
             this.button31.Text = "Assign";
             this.button31.UseVisualStyleBackColor = true;
             this.button31.Visible = false;
-            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // button32
             // 
@@ -756,7 +714,6 @@
             this.button32.Text = "Assign";
             this.button32.UseVisualStyleBackColor = true;
             this.button32.Visible = false;
-            this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
             // button33
             // 
@@ -766,7 +723,6 @@
             this.button33.TabIndex = 58;
             this.button33.Text = "Assign";
             this.button33.UseVisualStyleBackColor = true;
-            this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
             // button34
             // 
@@ -776,7 +732,6 @@
             this.button34.TabIndex = 57;
             this.button34.Text = "Assign";
             this.button34.UseVisualStyleBackColor = true;
-            this.button34.Click += new System.EventHandler(this.button34_Click);
             // 
             // button35
             // 
@@ -1390,7 +1345,18 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Configuration";
             this.tabPage3.UseVisualStyleBackColor = true;
-            this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(9, 10);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.checkBox1.Size = new System.Drawing.Size(143, 17);
+            this.checkBox1.TabIndex = 63;
+            this.checkBox1.Text = "Toggle Clearing Bindings";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.Visible = false;
             // 
             // label28
             // 
@@ -1400,7 +1366,6 @@
             this.label28.Size = new System.Drawing.Size(126, 13);
             this.label28.TabIndex = 62;
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label28.Click += new System.EventHandler(this.label28_Click);
             // 
             // label29
             // 
@@ -1411,7 +1376,6 @@
             this.label29.Text = "no text";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label29.Visible = false;
-            this.label29.Click += new System.EventHandler(this.label29_Click);
             // 
             // label30
             // 
@@ -1422,7 +1386,6 @@
             this.label30.Text = "no text";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label30.Visible = false;
-            this.label30.Click += new System.EventHandler(this.label30_Click);
             // 
             // label31
             // 
@@ -1433,7 +1396,6 @@
             this.label31.Text = "no text";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label31.Visible = false;
-            this.label31.Click += new System.EventHandler(this.label31_Click);
             // 
             // label32
             // 
@@ -1444,7 +1406,6 @@
             this.label32.Text = "no text";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label32.Visible = false;
-            this.label32.Click += new System.EventHandler(this.label32_Click);
             // 
             // label33
             // 
@@ -1454,7 +1415,6 @@
             this.label33.TabIndex = 57;
             this.label33.Text = "0.2.0-gfx-beta";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label33.Click += new System.EventHandler(this.label33_Click);
             // 
             // label19
             // 
@@ -1464,7 +1424,6 @@
             this.label19.Size = new System.Drawing.Size(71, 13);
             this.label19.TabIndex = 55;
             this.label19.Text = "Available ver:";
-            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // label20
             // 
@@ -1474,7 +1433,6 @@
             this.label20.Size = new System.Drawing.Size(99, 13);
             this.label20.TabIndex = 54;
             this.label20.Text = "Check for Updates:";
-            this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // label21
             // 
@@ -1484,7 +1442,6 @@
             this.label21.Size = new System.Drawing.Size(99, 13);
             this.label21.TabIndex = 53;
             this.label21.Text = "Go to update page:";
-            this.label21.Click += new System.EventHandler(this.label21_Click);
             // 
             // label22
             // 
@@ -1495,7 +1452,6 @@
             this.label22.TabIndex = 52;
             this.label22.Text = "no text";
             this.label22.Visible = false;
-            this.label22.Click += new System.EventHandler(this.label22_Click);
             // 
             // label23
             // 
@@ -1506,7 +1462,6 @@
             this.label23.TabIndex = 51;
             this.label23.Text = "no text";
             this.label23.Visible = false;
-            this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
             // label24
             // 
@@ -1517,7 +1472,6 @@
             this.label24.TabIndex = 50;
             this.label24.Text = "no text";
             this.label24.Visible = false;
-            this.label24.Click += new System.EventHandler(this.label24_Click);
             // 
             // label25
             // 
@@ -1528,7 +1482,6 @@
             this.label25.TabIndex = 49;
             this.label25.Text = "no text";
             this.label25.Visible = false;
-            this.label25.Click += new System.EventHandler(this.label25_Click);
             // 
             // label26
             // 
@@ -1538,7 +1491,6 @@
             this.label26.Size = new System.Drawing.Size(53, 13);
             this.label26.TabIndex = 48;
             this.label26.Text = "rm-os ver:";
-            this.label26.Click += new System.EventHandler(this.label26_Click);
             // 
             // button19
             // 
@@ -1560,19 +1512,6 @@
             this.button20.UseVisualStyleBackColor = true;
             this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(9, 10);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox1.Size = new System.Drawing.Size(143, 17);
-            this.checkBox1.TabIndex = 63;
-            this.checkBox1.Text = "Toggle Clearing Bindings";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.Visible = false;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            // 
             // rmos
             // 
             this.AccessibleDescription = "basic program launcher";
@@ -1589,7 +1528,7 @@
             this.Name = "rmos";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "rm-os (beta)";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.rmos_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
