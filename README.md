@@ -7,5 +7,3 @@ A quick launch of various common utilities in Windows, as well as various tools,
 - Run `setup.exe` and follow installation.
 - If you recieve prompts about unverified publisher, click install anyway, or a similar button.
 - It should place a shortcut on the desktop and open itself.
-# planned additions
-- Modular program additions, such as being able to add your own programs, or simply link to existing ones.
