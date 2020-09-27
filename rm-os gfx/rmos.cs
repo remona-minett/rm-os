@@ -3,8 +3,6 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
 using System.Net;
-using System.Threading;
-using Microsoft.VisualBasic;
 
 namespace rm_os_gfx
 {
@@ -64,7 +62,7 @@ namespace rm_os_gfx
                 try
                 {
                     label28.Visible = true;
-                    label28.Text = client.DownloadString("https://raw.githubusercontent.com/remona-minett/rm-os/master/rm-os%20gfx/rm-os%20gfx/ver.txt");
+                    label28.Text = client.DownloadString("https://raw.githubusercontent.com/remona-minett/rm-os/master/rm-os%20gfx/ver.txt");
                 }
                 catch (Exception)
                 {
@@ -92,7 +90,7 @@ namespace rm_os_gfx
             
         }
 
-        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (tabControl1.SelectedIndex == 0)
             {
@@ -640,6 +638,11 @@ namespace rm_os_gfx
                 var popup = new errNotFound();
                 popup.ShowDialog();
             }
+        }
+
+        private void tabPage3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
