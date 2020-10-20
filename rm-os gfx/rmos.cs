@@ -644,5 +644,23 @@ namespace rm_os_gfx
         {
 
         }
+
+        private void rmos_Resize(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                Hide();
+                notifyIcon1.Visible = true;
+                notifyIcon1.ShowBalloonTip(500);
+            }
+        }
+
+        private void notifyIcon1_MouseClick(object sender, MouseEventArgs e)
+        {
+            Show();
+            this.WindowState = FormWindowState.Normal;
+            notifyIcon1.Visible = false;
+        }
+
     }
 }
